@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Reel Me</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/aos.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css" type="text/css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/slick.min.js" type="text/javascript"></script>
+    <script src="js/aos.js" type="text/javascript"></script>
+
+    <style type="text/css">
+        @media all and (max-width: 420px){
+
+        .banner.has-hover { min-height: 120px; }
+
+        }
+
+          @media all and (max-width: 360px){
+
+        .banner.has-hover { min-height: 110px; }            
+
+          }
+
+          @media all and (max-width: 340px){
+
+        .banner.has-hover { min-height: 110px; }            
+
+          }
+
+          .header-top .nav-left li span { padding-right: 8px; } 
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Modal -->
+    <div class="modal fade signup-popup" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+
+            <svg width="16" class="btn-close" data-bs-dismiss="modal" aria-label="Close" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.30251 7.8125L1.17451 2.80469L0.117012 1.77197C-0.0389881 1.61963 -0.0389881 1.37207 0.117012 1.21973L1.24851 0.114746C1.40451 -0.0375976 1.65801 -0.0375976 1.81401 0.114746L7.99951 6.15527L14.185 0.114258C14.341 -0.0380859 14.5945 -0.0380859 14.7505 0.114258L15.8825 1.21924C16.0385 1.37158 16.0385 1.61914 15.8825 1.77148L9.69651 7.8125L15.8825 13.853C16.0385 14.0054 16.0385 14.2529 15.8825 14.4053L14.751 15.5103C14.595 15.6626 14.3415 15.6626 14.1855 15.5103L7.99951 9.46973L2.87151 14.4775L1.81401 15.5103C1.65801 15.6626 1.40451 15.6626 1.24851 15.5103L0.117012 14.4053C-0.0389881 14.2529 -0.0389881 14.0054 0.117012 13.853L6.30251 7.8125Z" fill="#FF5E16"/>
+            </svg>
+
+        </div>
+        <div class="modal-body text-center">
+         <h3 data-aos="fade-down" data-aos-duration="1000">Join today and get 0% commsion for 12 months</h3>
+         <p>Sign up to make money and interact with your fans!</p>
+         <a href="#" class="twitter-social">
+            <i class="fa fa-twitter" aria-hidden="true"></i>Sign up with Twitter
+        </a>
+        <h4>Or sign up with email</h4>
+        <form>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+        </div>
+
+        <div class="mb-4">
+            <input type="number" class="form-control" id="tentacles" min="10" max="100" placeholder="Mobile">
+        </div>
+        <div class="inner-box d-flex mb-4">
+            <div class="form-check me-4">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Content Creator 
+            </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+          <label class="form-check-label" for="flexRadioDefault2">
+            Talent Manager
+        </label>
+    </div>
+</div>
+<button type="submit" class="btn btn-primary d-block w-100">Sign Me Up</button>
+</form>
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- Header Start -->
+
+<nav class="navbar navbar-expand-lg navbar-light nabvar-wrapper py-4">
+  <div class="ast-container d-flex align-items-center">
+    <a class="navbar-brand" href="#">
+        <img src="images/Logo.svg">
+    </a>
+<!--     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button> -->
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto align-items-center">
+        <a class="nav-link me-4" href="#">Early Adopter Offer</a>
+        <a class="nav-link join-free-btn des-view" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Join Free Today</a>
+        <a class="nav-link join-free-btn mob-view d-none" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Join</a>
+    </div>
+</div>
+</div>
+</nav>
+<!-- Header End -->
+
+<!-- Banner Section Start -->
+
+<div class="banner-wrapper container-fluid">
+    <div class="ast-container">
+        <div class="row">
+            <div class="col-lg-12 banner-content d-flex justify-content-center align-items-center flex-wrap text-center align-content-center">
+                <h6 class="w-100" >Social. Exclusive. Cheeky</h6>
+                <h1 class="w-100" data-aos="fade-down" data-aos-duration="900">Get closer to fans <br/>& make serious cash</h1>
+                <div class="inner-banner">
+                    <img class="arrow" src="images/left.svg">
+                    <a href="#" class="theme-btn d-view"><img src="images/info.svg"/>Early Adopter Offer -  12 months 0% commision!</a>
+                    <a href="#" class="theme-btn d-none mobile-view">Early Adopter Offer <span>12 months 0% commision!</span></a>
+                    <img class="arrow" src="images/right.svg">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Banner Section End -->
+
+<!-- Hottest Social Platform Ever! Section Start -->
+
+<section class="hottest-section-wrapper container-fluid">
+    <div class="inner-section">
+        <div class="ast-container">
+            <div class="row align-items-center">
+                <div class="col-md-3 col-lg-3 px-0 full-width">
+                    <h3 data-aos="fade-down" data-aos-duration="900">Hottest Social <br/>Platform Ever!</h3>
+                </div>
+                <div class="col-lg-9 col-md-9 px-0 d-flex justify-content-end img-wrapper full-width">
+                    <img src="images/user-1.jpg" class="img-fluid"/>
+                    <img src="images/user-2.jpg" class="img-fluid"/>
+                    <img src="images/user-3.jpg" class="img-fluid"/>
+                    <img src="images/user-4.jpg" class="img-fluid"/>
+                    <img src="images/user-5.jpg" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Hottest Social Platform Ever! Section End -->
+
+<!-- We help content creators get Section Start -->
+
+<section class="content-creator-wrapper container-fluid text-center aos-init">
+    <div class="ast-container">
+        <div class="row">
+            <div class="col-12"  data-aos="fade-down" data-aos-duration="1000">
+                <h5>We help content creators get closer <br/>to fans and make serious money!</h5>
+            </div>
+        </div>
+        <div class="row inner-row">
+            <div class="col-md-4 col-lg-4 inner-content"> 
+                <img src="images/commision.svg">
+                <h3>10% commision of all income</h3>
+            </div>
+            <div class="col-md-4 col-lg-4 inner-content"> 
+                <img src="images/security.svg">
+                <h3>Bank level security</h3>
+            </div>
+            <div class="col-md-4 col-lg-4 inner-content"> 
+                <img src="images/post.svg">
+                <h3>Premium Post Messaging and Tips</h3>
+            </div>
+            <div class="col-md-4 col-lg-4 inner-content"> 
+                <img src="images/demand.svg">
+                <h3>On demand <br/>payment</h3>
+            </div>
+            <div class="col-md-4 col-lg-4 inner-content"> 
+                <img src="images/search.svg">
+                <h3>Search feature<br/> allowing for fan<br/> base growth</h3>
+            </div>
+            <div class="col-md-4 col-lg-4 inner-content"> 
+                <img src="images/live.svg">
+                <h3>Live Streaming with <br/>tipping (Coming<br/> Soon)</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- We help content creators get Section End -->
+
+<!-- Mobile Slider Section Start -->
+
+<section class="container-fluid mobile-slider-wrapper">
+    <div class="ast-container">
+        <div class=" slider-content-wrapper d-flex">
+        <div class="row align-items-center d-flex">
+            <div class="col-lg-5 col-md-5 px-0 before-arrow">
+                <img src="images/slider-img.jpg" class="img-fluid aos-init aos-animate" data-aos="zoom-in-up" />
+            </div>
+            <div class="col-lg-7 col-md-7 text-left col-right">
+                <div>
+                    <h6  data-aos="fade-down" data-aos-duration="800">Early Adopter Offer - 12 months 0% commision!</h6>
+                    <h4  data-aos="fade-down" data-aos-duration="900">Sign up today to start making money with zero commision as welcome gift from us.</h4>
+                    <p class="pb-4"  data-aos="fade-down" data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra tortor nec mauris vehicula, eget bibendum ligula convallis. Nam sit amet auctor lorem, ut ultrices nisi. Sed eu justo sollicitudin dui rhoncus accumsan eget eget </p>
+                    <a href="#" class="theme-btn ms-0 d-view"><img src="images/info-white.svg"/>Early Adopter Offer -  12 months 0% commision!</a>
+                    <a href="#" class="theme-btn ms-0 d-none mobile-view">Early Adopter Offer <span> 12 months 0% commision!</span></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="row align-items-center d-flex">
+            <div class="col-lg-5 col-md-5 px-0 before-arrow aos-init aos-animate" data-aos-duration="1600" data-aos="zoom-in-down">
+                <img src="images/slider-img2.jpg" class="img-fluid" />
+            </div>
+            <div class="col-lg-7 col-md-7 text-left col-right">
+                <div>
+                    <h6  data-aos="fade-down" data-aos-duration="800">Early Adopter Offer - 12 months 0% commision!</h6>
+                    <h4  data-aos="fade-down" data-aos-duration="900">Sign up today to start making money with zero commision as welcome gift from us.</h4>
+                    <p class="pb-4" data-aos="fade-down" data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra tortor nec mauris vehicula, eget bibendum ligula convallis. Nam sit amet auctor lorem, ut ultrices nisi. Sed eu justo sollicitudin dui rhoncus accumsan eget eget </p>
+                    <a href="#" class="theme-btn ms-0 d-view"><img src="images/info-white.svg"/>Early Adopter Offer -  12 months 0% commision!</a>
+                    <a href="#" class="theme-btn ms-0 d-none mobile-view">Early Adopter Offer <span> 12 months 0% commision!</span></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="row align-items-center d-flex">
+            <div class="col-lg-5 col-md-5 px-0 before-arrow aos-animate" data-aos-duration="1600" data-aos="zoom-in-down">
+                <img src="images/slider-img3.jpg" class="img-fluid aos-init aos-animate" data-aos="zoom-in-up" />
+            </div>
+            <div class="col-lg-7 col-md-7 text-left col-right">
+                <div>
+                    <h6  data-aos="fade-down" data-aos-duration="800">Early Adopter Offer - 12 months 0% commision!</h6>
+                    <h4  data-aos="fade-down" data-aos-duration="900">Sign up today to start making money with zero commision as welcome gift from us.</h4>
+                    <p class="pb-4"  data-aos="fade-down" data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra tortor nec mauris vehicula, eget bibendum ligula convallis. Nam sit amet auctor lorem, ut ultrices nisi. Sed eu justo sollicitudin dui rhoncus accumsan eget eget </p>
+                    <a href="#" class="theme-btn ms-0 d-view"><img src="images/info-white.svg"/>Early Adopter Offer -  12 months 0% commision!</a>
+                    <a href="#" class="theme-btn ms-0 d-none mobile-view">Early Adopter Offer <span> 12 months 0% commision!</span></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="row align-items-center d-flex">
+            <div class="col-lg-5 col-md-5 px-0 before-arrow aos-animate" data-aos-duration="1600" data-aos="zoom-in-down">
+                <img src="images/slider-img4.jpg" class="img-fluid aos-init aos-animate" data-aos="zoom-in-up" />
+            </div>
+            <div class="col-lg-7 col-md-7 text-left col-right">
+                <div>
+                    <h6  data-aos="fade-down" data-aos-duration="800">Early Adopter Offer - 12 months 0% commision!</h6>
+                    <h4  data-aos="fade-down" data-aos-duration="900">Sign up today to start making money with zero commision as welcome gift from us.</h4>
+                    <p class="pb-4"  data-aos="fade-down" data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pharetra tortor nec mauris vehicula, eget bibendum ligula convallis. Nam sit amet auctor lorem, ut ultrices nisi. Sed eu justo sollicitudin dui rhoncus accumsan eget eget </p>
+                    <a href="#" class="theme-btn ms-0 d-view"><img src="images/info-white.svg"/>Early Adopter Offer -  12 months 0% commision!</a>
+                    <a href="#" class="theme-btn ms-0 d-none mobile-view">Early Adopter Offer <span> 12 months 0% commision!</span></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- Mobile Slider Section End -->
+
+<!-- Testimonial Section Start -->
+
+<section class="testimonial-wrapper container-fluid">
+    <div class="inner-testimonial">
+    <div class="ast-container">
+        <div class="row testimonial-slider">
+            <div class="col-lg-12 text-center">
+                <img src="images/user.png"/>
+                <h3>“ I left Onlyfans to join ReelMe as the 0% commision offer means I will make an extra $20k each month”</h3>
+                <h5>Laura Row</h5>
+                <h6>Melbourne</h6>
+            </div>
+            <div class="col-lg-12 text-center">
+                <img src="images/user.png"/>
+                <h3>“ I left Onlyfans to join ReelMe as the 0% commision offer means I will make an extra $20k each month”</h3>
+                <h5>Laura Row</h5>
+                <h6>Melbourne</h6>
+            </div>
+            <div class="col-lg-12 text-center">
+                <img src="images/user.png"/>
+                <h3>“ I left Onlyfans to join ReelMe as the 0% commision offer means I will make an extra $20k each month”</h3>
+                <h5>Laura Row</h5>
+                <h6>Melbourne</h6>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- Testimonial Section End -->
+
+<!-- Footer Start -->
+
+<footer class="main-footer-wrapper container-fluid">
+    <div class="ast-container">
+        <div class="row align-items-center">
+            <div class="col-md-8 col-lg-8 col-sm-8 col-xs-12 footer-navbar px-0">
+                <p>© 2021 ReelMe. All Rights Reserved.</p>
+                <ul class="d-flex"> 
+                    <li><a href="#">Privacy Policy</a></li><span>|</span>
+                    <li><a href="#">Cookie Policy</a></li><span>|</span>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 footer-social-media px-0">
+                <ul class="d-flex justify-content-end">
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="bottom-bar container-fluid text-center">
+    <div class="row py-3">
+        <div class="col-lg-12">
+            <span>Website strategy, creativity & development by</span><img src="images/nav_ic.svg"/>
+
+        </div>
+    </div>
+</div>
+
+<!-- Footer End -->
+
+<script>
+  AOS.init();
+</script>
+
+<script type="text/javascript">
+    $('.slider-content-wrapper').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows:false,
+      dots: true
+  });
+
+    $('.testimonial-slider').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows:true,
+      dots: true,
+      prevArrow: '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+      nextArrow: '<i class="fa fa-angle-right" aria-hidden="true"></i>'
+  });
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 1){  
+            $('nav').addClass("sticky");
+        }
+        else{
+            $('nav').removeClass("sticky");
+        }
+    });
+</script>
+
+
+</body>
+
+</html>
